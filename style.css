@@ -1,0 +1,596 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+
+/* body,
+html {
+    background-color: #537543;
+} */
+
+.hdr_backgrnd {
+    background-color: #537942;
+}
+
+.navbar {
+    /* width: 100%; */
+    background-color: #537543 !important;
+    box-shadow: 14.698px 14.972px 36.5px rgba(0, 0, 0, 0.25) !important;
+}
+
+.navbar-brand {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #ffffff !important;
+    font-weight: 500;
+    font-family: "Poppins";
+}
+
+.nav-link {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #ffffff !important;
+    font-weight: 500;
+    padding: 6px 12px !important;
+    font-family: "Poppins";
+}
+
+.hdr_text h1 {
+    font-size: 65px;
+    margin-top: -18px;
+    letter-spacing: 3px;
+    line-height: 84px;
+    color: #ffffff;
+    font-weight: 700;
+    align-items: center;
+    text-align: center;
+    filter: (box-shadow 10px 17.321px 10.5px rgba(0, 0, 0, 0.05));
+}
+
+.hdr_text h4 {
+    letter-spacing: -1px;
+    padding-top: 100px;
+    margin-bottom: 0px;
+    font-size: 31px;
+    color: #ffffff;
+    font-family: "Berkshire Swash";
+    text-align: center;
+}
+
+.hdr_text p {
+    padding: 0px 16px;
+    margin: 26px 0px;
+    font-size: 22px;
+    color: #ffffff;
+    font-family: "Poppins";
+}
+
+.hdr_text button {
+    margin: 30px 16px;
+    border-radius: 27px;
+    padding: 6px 40px;
+    background-color: #e6ca48;
+    font-size: 28px;
+    line-height: 37px;
+    font-weight: 500;
+    border: none;
+    font-family: "Poppins";
+}
+
+button a {
+    color: #3e5831;
+    text-decoration: none;
+}
+
+.hdr_img img {
+    width: 100%;
+    padding: 50px 10px;
+}
+
+
+/* about section */
+
+.about_back {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
+    background-color: #537543;
+    /* position: relative; */
+    padding-bottom: 40px;
+}
+
+.card {
+    width: 95%;
+    /* margin: 0px 0px 0px auto; */
+    margin: 50px 0px 0px auto;
+    background-color: #e6ca48;
+    filter: drop-shadow(-11.698px 14.972px 36.5px rgba(83, 83, 83, 0.13));
+    border-radius: 50% 0% 0% 50%;
+}
+
+.card img {
+    width: 100%;
+    margin-left: -25px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.card-title {
+    margin: 10px 0px;
+    padding: 10px 10px;
+    font-size: 60px;
+    line-height: 69px;
+    color: #537543;
+    font-weight: 700;
+    font-family: "Berkshire Swash";
+}
+
+.card-text {
+    margin: 10px 10px;
+    padding: 10px 10px;
+    font-size: 25px;
+    line-height: 33px;
+    color: #5a7d48;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+
+.card button {
+    margin: 10px 10px;
+    padding: 10px 40px;
+    height: 54px;
+    border-radius: 27px;
+    background-color: #ffffff;
+    border: none;
+}
+
+button a {
+    font-family: "Montserrat";
+    font-size: 25px;
+    line-height: 25px;
+}
+
+
+/* icon section */
+
+.icon_Back {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
+    background-color: #537543;
+    padding: 40px 0px;
+    text-align: center;
+}
+
+.icon_section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.icon_section img {
+    margin: 20px 0px;
+}
+
+.icon_section h3 {
+    margin: 10px;
+    font-size: 33px;
+    letter-spacing: 3px;
+    line-height: 57px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Poppins";
+    text-align: center;
+}
+
+.icon_section p {
+    font-size: 20px;
+    line-height: 20px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Poppins";
+    text-align: center;
+}
+
+
+/* Meet our Chef Section */
+
+.chef_section {
+    background-image: linear-gradient(262deg, #7cb258 70%, rgba(76, 84, 73, 0.05) 100%);
+}
+
+.chef_section h2 {
+    padding-top: 50px;
+    font-size: 60px;
+    letter-spacing: 7px;
+    line-height: 84px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Berkshire Swash";
+    text-align: center;
+}
+
+.chef_section P {
+    padding-bottom: 30px;
+    font-size: 23px;
+    letter-spacing: 5px;
+    line-height: 28px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Poppins";
+    text-align: center;
+}
+
+.chef_image {
+    display: flex;
+    justify-content: space-around;
+    column-gap: 20px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.img_section {
+    flex: 30.33%;
+}
+
+.img_section img {
+    width: 100%;
+    height: 500px;
+    background-color: #373c35;
+    /* object-fit: scale-down; */
+    border-radius: 10px 10px 0px 0px;
+}
+
+.chef_details {
+    border-radius: 0px 0px 10px 10px;
+    background-color: #537543;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.chef_details h4 {
+    padding-top: 30px;
+    font-size: 25px;
+    letter-spacing: 3px;
+    line-height: 25px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Poppins";
+    text-align: center;
+}
+
+.chef_details p {
+    font-size: 15px;
+    letter-spacing: 3px;
+    line-height: 25px;
+    color: #ffffff;
+    /* font-weight: 400; */
+    font-family: "Poppins";
+    text-align: center;
+}
+
+p.chef_ftrpara {
+    padding: 50px 25px;
+    color: #373c35 !important;
+    text-align: justify;
+    font-size: 25px;
+    line-height: 33px;
+    letter-spacing: 3px;
+    font-weight: 400;
+    font-family: "Montserrat";
+    /* text-align: center; */
+}
+
+
+/* food making section */
+
+.delicious_make {
+    background-color: #dd972b;
+    margin-top: -16px;
+}
+
+.food_details {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.food_details img {
+    display: block;
+    width: 80%;
+    height: 400;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5), 4px 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.delciousfoodmake {
+    margin: 70px 0px;
+    padding: 0px 20px;
+}
+
+.delciousfoodmake h4 {
+    font-size: 37px;
+    line-height: 50px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Poppins";
+}
+
+.delciousfoodmake p {
+    margin: 50px 0px;
+    font-size: 21px;
+    line-height: 32px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Poppins";
+}
+
+.delciousfoodmake button {
+    margin: 10px 10px;
+    padding: 10px 50px;
+    height: 54px;
+    border-radius: 27px;
+    background-color: #ffffff;
+    border: none;
+}
+
+.delciousfoodmake button a {
+    font-family: "Montserrat";
+    font-size: 25px;
+    line-height: 25px;
+}
+
+
+/* testimonial section */
+
+.testimonial_back {
+    background-image: linear-gradient(262deg, #7cb258 0%, rgba(76, 84, 73, 0) 100%);
+    background-color: #537942;
+}
+
+.testimonial_deails h2 {
+    padding-top: 40px;
+    font-size: 60px;
+    line-height: 105px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Berkshire Swash";
+    text-align: center;
+}
+
+.testimonial_deails p {
+    font-size: 25px;
+    padding: 0px 20px;
+    line-height: 46px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Poppins";
+    text-align: center;
+}
+
+.testimonial_deails h5 {
+    text-align: center;
+    color: #ffffff;
+    margin-top: 20px;
+    padding-bottom: 25px;
+    font-size: 28px;
+}
+
+.testimoinial_icon {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.fa {
+    width: 30px;
+    font-size: 30px;
+    padding: 6px;
+    color: #ffffff;
+}
+
+
+/* our menus */
+
+.menu_back {
+    filter: drop-shadow(-11.698px 14.972px 36.5px rgba(83, 83, 83, 0.13));
+    background-color: #e6ca48;
+}
+
+.menu_des {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 8px;
+}
+
+.menu_des h2 {
+    font-size: 60px;
+    color: #537942;
+    font-weight: 600;
+    font-family: "Poppins";
+}
+
+.menu_des h4 {
+    font-size: 40px;
+    letter-spacing: -1px;
+    line-height: 58px;
+    color: #537942;
+    font-weight: 400;
+    font-family: "Poppins";
+}
+
+.menu_des p {
+    font-size: 17px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    color: #537942;
+    font-weight: 400;
+    font-family: "Poppins";
+    text-align: center;
+    padding: 0px 20px;
+}
+
+.menudetails_back {
+    background-color: #7cb258;
+    padding: 60px 12px;
+}
+
+.menu img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.menu-body {
+    padding: 0px 12px;
+}
+
+.menu-title {
+    font-size: 35px;
+    letter-spacing: -1px;
+    line-height: 39px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Poppins";
+}
+
+.pricecard-text {
+    /* padding: 0px 12px; */
+    font-size: 45px;
+    letter-spacing: -1px;
+    /* line-height: 86px; */
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Poppins";
+}
+
+.text-muted {
+    color: #ffffff !important;
+    font-family: "Poppins";
+}
+
+.menu-text {
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Poppins";
+}
+
+
+/* subcriber section */
+
+.subs_back {
+    background-color: #ffffff;
+}
+
+.subcriber_sec h2 {
+    padding-top: 60px;
+    font-size: 65px;
+    color: #68914f;
+    font-weight: 700;
+    font-family: "Berkshire Swash";
+    text-align: center;
+}
+
+.subcriber_sec {
+    text-align: center;
+}
+
+.subcriber_sec p {
+    padding: 10px 12px;
+    font-size: 25px;
+    color: #658e4d;
+    font-weight: 400;
+    text-align: center;
+    font-family: "Poppins";
+}
+
+.subcriber_sec input {
+    width: 30%;
+    padding: 4px 12px;
+    border-radius: 20px;
+    border: 2px solid #68914f;
+    font-family: "Poppins";
+    font-size: 20px;
+}
+
+.subcriber_sec button {
+    width: 30%;
+    padding: 4px 12px;
+    border-radius: 20px;
+    border: 2px solid #68914f;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    background-color: #537543;
+    color: #ffffff;
+    font-family: "Poppins";
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.subcriber_sec button:hover {
+    background-color: #ffffff;
+    color: #537543;
+}
+
+
+/* footer section */
+
+.footer_back {
+    background-color: #537543;
+    padding: 70px 12px;
+}
+
+.footer_left h3 {
+    font-size: 35px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.footer_left p {
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Poppins";
+    margin-right: 12px;
+    padding-bottom: 12px;
+}
+
+.footer_icon {
+    padding-bottom: 16px;
+}
+
+.footer_details {
+    display: flex;
+    justify-content: center;
+}
+
+.footer_right {
+    padding: 0pc 12px;
+}
+
+.footer_menu h3 {
+    font-size: 35px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Berkshire Swash";
+    /* text-align: start; */
+}
+
+.footer_menu li {
+    list-style-type: none;
+}
+
+.footer_menu a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 40px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Poppins";
+    pointer-events: cursor;
+    padding-left: 35px;
+    margin-left: -65px;
+}
